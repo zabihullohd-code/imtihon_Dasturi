@@ -9,6 +9,7 @@ const Asilbek = () => {
   return (
     <BrowserRouter>
     <div>
+<<<<<<< HEAD
         <div className="Menu">
             <div className="navbar">
                 <img src={logo} alt="" />
@@ -35,6 +36,9 @@ const Asilbek = () => {
             </Router>
         </div>
 
+=======
+      <Firdavs />
+>>>>>>> 48d3734aa996f48d76703fa73ac2f1703be11811
     </div>
 
 
