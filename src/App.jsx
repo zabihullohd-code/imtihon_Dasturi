@@ -6,7 +6,7 @@ import Asilbek from './Asilbek/Asilbek'
 const App = () => {
   return (
     <div>
-      <Mrizo />
+      <Firdavs />
     </div>
   )
 }
