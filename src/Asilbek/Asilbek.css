@@ -1,0 +1,65 @@
+.tepa_A {
+    width: 1920px;
+    height: auto;
+    padding: 20px;
+    border: 3px solid black;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tepa_A .navbar {
+    width: 100%;
+    height: auto;
+    padding-block: 20px;
+    padding-inline: 150px;
+    background-color: #BB2339;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul li {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.navbar ul li a {
+    font-size: 17px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+
+}
+
+.navbar button {
+    font-size: 19px;
+    border: 1px solid white;
+    height: 48px;
+    width: 131px;
+    border-radius: 27px;
+}
+
+.navbar button:hover {
+    background-color: red;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.344);
+    color: #fff;
+    transform: translateY(-7px);
+
+
+}
+
+.navbar button:active {
+    transform: translateY(-1px);
+
+}
