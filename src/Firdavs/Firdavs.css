@@ -1,8 +1,167 @@
-.news{
-    height: auto;
-    background: rebeccapurple;
+*
+{
+    margin: 0;
+    padding: 0;
 }
 
 ul{
     margin-top: 100px;
+    margin-left: 100px;
+    list-style: none;
 }
+
+ul li{
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-left: 20px;
+}
+
+ul li span{
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #BB2339;
+}
+h1{
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 70px;
+}
+
+.asos
+{
+    width: 1300px;
+    height: 1946px;
+    /* background-color: yellow; */
+flex-wrap: wrap;
+margin: auto;
+}
+.card
+{
+width: 413px;
+height: 584px;
+border: 2px solid grey;
+border-radius: 15px;
+float: left;
+margin: 10px;
+}
+.card img
+{
+    width: 410px;
+    height: 352px;
+border-top-left-radius: 16px;
+border-top-right-radius:16px;
+
+}
+.v1
+{
+    width: 372px;
+    margin: 20px;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.v2
+{
+    width: 352px;
+    margin-left: 20px;
+    color: grey;
+}
+.card1
+{
+    width: 100%;
+    height: 55px;
+    background-color: #bb233a00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.v3
+{
+    width: 86px;
+    margin: 20px;
+    float: left;
+    color: #BB2339;
+}
+.v4
+{
+    width: 79px;
+    margin: 20px;
+    color: grey;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
