@@ -21,7 +21,7 @@ const App = () => {
                 <ul>
                     <li>
                         <Link to="abdurahmon">Home</Link>
-                        <Link href="/">menu</Link>
+                        <Link to="asilbek">menu</Link>
                         <Link to="firdavs">news</Link>
                         <Link to="umar">about us</Link>
                         <Link to="jasurbek">contact us</Link>
@@ -37,28 +37,18 @@ const App = () => {
                 </div>
             </div>
             <Routes>
-                <Route path='abdurahmon' element={<Abdurahmon />}/>
+                {/* <Route path='abdurahmon' element={<Abdurahmon />}/> */}
                 <Route path='abdurahmon' element={<Mrizo />}/>
-                <Route path='/' element={<Asilbek />}/>
+                <Route path='asilbek' element={<Asilbek />}/>
                 <Route path='firdavs' element={<Firdavs />}/>
                 <Route path='jasurbek' element={<Jasurbek />}/>
                 <Route path='umar' element={<Umar />}/>
                 <Route path='Samandar' element={<Samandar />}/>
             </Routes>
         </div>
-      <div>
-    
-
-      <Firdavs />
+      {/* <Asilbek /> */}
     </div>
     </BrowserRouter>
-    {/* <Abdurahmon />
-    <Mrizo />
-    <Asilbek />
-    <Firdavs />
-    <Jasurbek />
-    <Umar /> */}
-    {/* <Samandar /> */}
 
   )
 }

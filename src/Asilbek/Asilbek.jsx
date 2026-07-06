@@ -13,11 +13,11 @@ const Asilbek = () => {
                 <img src={logo} alt="" />
                 <ul>
                     <li>
-                        <a href="/">menu</a>
-                        <a href="Firdavs.jsx">news</a>
-                        <a href="Umar.jsx">about us</a>
-                        <a href="Jasurbek.jsx">contact us</a>
-                        <a href="Samandar.jsx"> <button>Log in</button> </a>
+                        <a href="">menu</a>
+                        <a href="">news</a>
+                        <a href="">about us</a>
+                        <a href="">contact us</a>
+                        <a href=""> <button>Log in</button> </a>
                     </li>
                 </ul>
             </div>
