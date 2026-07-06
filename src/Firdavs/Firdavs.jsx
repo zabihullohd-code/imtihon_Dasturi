@@ -120,6 +120,8 @@ const Firdavs = () => {
                     </div>
                 </div>
 
+                <div className="btn">view more</div>
+
             </div>
 
         </div>
