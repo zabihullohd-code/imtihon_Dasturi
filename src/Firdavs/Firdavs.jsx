@@ -6,24 +6,7 @@ import './Firdavs.css'
 const Firdavs = () => {
     return (
         <div>
-            <div className="navbar">
-                <div className="navbar1">
 
-                <img className='img' src={logo} alt="" />
-                </div>
-                <div className="navbar2">
-                    
-                <ul>
-                    <li>
-                        <a href="/">menu</a>
-                        <a href="Firdavs.jsx">news</a>
-                        <a href="Umar.jsx">about us</a>
-                        <a href="Jasurbek">contact us</a>
-                            <button>Log in</button> 
-                    </li>
-                </ul>
-                </div>
-            </div>
             <div className="tepa1">
 
                 <ul className='ul'>
@@ -40,19 +23,45 @@ const Firdavs = () => {
                     <img src={rasm1} alt="" />
                     <h2 className='v1'>Tips for prepping and caring for your grill</h2>
                     <p className='v2' >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
-                    <div className="card1">
+                        {/* <div className="card1">
 
-                        <p className='v3'>Read More</p>
-                        <p className='v4'>16 Apr 2021</p>
-                    </div>
+                            <p className='v3'>Read More</p>
+                            <p className='v4'>16 Apr 2021</p>
+                        </div>   */}
                 </div>
-                <div className="card">
+                {/* <div className="card">
                     <img src={rasm1} alt="" />
                     <h2 className='v1'>Tips for prepping and caring for your grill</h2>
                     <p className='v2' >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
                     <div className="card1">
 
                         <p className='v3'>Read More</p>
+                        <p className='v4'>16 Apr 2021</p>
+                    </div>
+                </div>                <div className="card">
+                    <img src={rasm1} alt="" />
+                    <h2 className='v1'>Tips for prepping and caring for your grill</h2>
+                    <p className='v2' >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
+                    <div className="card1">
+
+                        <p className='v3'>Read More</p>
+                        <p className='v4'>16 Apr 2021</p>
+                    </div>
+                </div>                <div className="card">
+                    <img src={rasm1} alt="" />
+                    <h2 className='v1'>Tips for prepping and caring for your grill</h2>
+                    <p className='v2' >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
+                    <div className="card1">
+
+                        <p className='v3'>Read More</p>
+                        <p className='v4'>16 Apr 2021</p>
+                    </div>
+                </div>                <div className="card">
+                    <img src={rasm1} alt="" />
+                    <h2 className='v1'>Tips for prepping and caring for your grill</h2>
+                    <p className='v2' >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
+                    <div className="card1">
+                        [06.07.2026 16:20] فاطمة: <p className='v3'>Read More</p>
                         <p className='v4'>16 Apr 2021</p>
                     </div>
                 </div>                <div className="card">
@@ -91,41 +100,14 @@ const Firdavs = () => {
                         <p className='v3'>Read More</p>
                         <p className='v4'>16 Apr 2021</p>
                     </div>
-                </div>                <div className="card">
-                    <img src={rasm1} alt="" />
-                    <h2 className='v1'>Tips for prepping and caring for your grill</h2>
-                    <p className='v2' >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
-                    <div className="card1">
+                </div> */}
 
-                        <p className='v3'>Read More</p>
-                        <p className='v4'>16 Apr 2021</p>
-                    </div>
-                </div>                <div className="card">
-                    <img src={rasm1} alt="" />
-                    <h2 className='v1'>Tips for prepping and caring for your grill</h2>
-                    <p className='v2' >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
-                    <div className="card1">
-
-                        <p className='v3'>Read More</p>
-                        <p className='v4'>16 Apr 2021</p>
-                    </div>
-                </div>                <div className="card">
-                    <img src={rasm1} alt="" />
-                    <h2 className='v1'>Tips for prepping and caring for your grill</h2>
-                    <p className='v2' >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
-                    <div className="card1">
-
-                        <p className='v3'>Read More</p>
-                        <p className='v4'>16 Apr 2021</p>
-                    </div>
-                </div>
-
-                <div className="btn">view more</div>
+                {/* <div className="btn">view more</div> */}
 
             </div>
 
 
-{/* cbufvoecdldnv */}
+            {/* cbufvoecdldnv */}
 
 
 
@@ -133,19 +115,19 @@ const Firdavs = () => {
 
                 <div className="shriftlar">
 
-                <h2>Newsletter</h2>
+                    <h2>Newsletter</h2>
 
-                <h1>Subscribe to Our Newsletter</h1>
+                    <h1>Subscribe to Our Newsletter</h1>
 
-                <p>And never miss latest Updates!</p>
+                    <p>And never miss latest Updates!</p>
 
                 </div>
 
                 <div className="inpbtn">
 
-                <input type="text" placeholder='Email Address'/>
+                    <input type="text" placeholder='Email Address' />
 
-                <button>Subscribe</button>
+                    <button>Subscribe</button>
                 </div>
             </div>
 
@@ -171,9 +153,9 @@ const Firdavs = () => {
                     <p>"The best way to find yourself is to lose yourself in the service of others.”</p>
                     <br />
                     <div className="i">
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
                     </div>
                 </div>
 
@@ -190,5 +172,4 @@ const Firdavs = () => {
 
     )
 }
-
 export default Firdavs
