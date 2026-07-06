@@ -128,4 +128,48 @@
     
 }
 
+.orta_t .harf{
+    width: 100px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+}
 
+.harf p{
+    font-size: 14px;
+}
+
+.harf .asd{
+    color: #BB2339;
+}
+
+.orta .chap{
+    width: 428px;
+    height: 844px;
+
+}
+
+.chap .tugma{
+    width: 181px;
+    height: 592px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.tugma button{
+    border: 1px solid #BB2339;
+    
+}
+.tugma button:hover{
+    border: 1px solid white;
+    background-color: white;
+    
+}
