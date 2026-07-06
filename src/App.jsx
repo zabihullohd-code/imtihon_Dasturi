@@ -9,34 +9,7 @@ import Jasurbek from './jasurbek/Jasurbek'
 const Asilbek = () => {
   return (
         <BrowserRouter>
-      <div>
-        {/* <div className="Menu">
-            <div className="navbar">
-                <img src={logo} alt="" />
-                <ul>
-                    <li>
-                        <a href="">menu</a>
-                        <Link to="firdavs">news</Link>
-                        <Link to="Umar">about us</Link>
-                        <Link to="Jasurbek">contact us</Link>
-                        <Link to="Samandar"> <button>Log in</button> </Link>
-                    </li>
-                </ul>
-            </div>
-            <div className="orta">
-                <div className="orta_t">
-                    <p>Home</p>
-                    <p>|</p>
-                    <p>Menu</p>
-                </div>
-            </div>
-            <Routes>
-                <Route path='firdavs' element={<Firdavs />}/>
-                <Route path='Mrizo' element={<Mrizo />}/>
-            </Routes>
-        </div> */}
 
-    </div>
       <Jasurbek />
     </BrowserRouter>
 
