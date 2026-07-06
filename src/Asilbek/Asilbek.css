@@ -1,35 +1,13 @@
-/* tepa qismi */
-/* tepa qismi */
-/* tepa qismi */
-/* tepa qismi */
-/* tepa qismi */
-/* tepa qismi */
-/* tepa qismi */
-/* tepa qismi */
-/* tepa qismi */
-/* tepa qismi */
-/* tepa qismi */
-/* tepa qismi */
-/* tepa qismi */
-/* tepa qismi */
-/* tepa qismi */
-/* tepa qismi */
-/* tepa qismi */
-/* tepa qismi */
-
-/* tepa qismi */
-/* tepa qismi */
-
 .Menu {
     width: 1920px;
     height: auto;
-    padding: 20px;
-    margin: 50px auto;
-    display: flex;
+    margin: auto;
+    /* display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    background-color: white;
 
 }
 
@@ -72,7 +50,7 @@
 }
 
 .navbar button:hover {
-    background-color: red;
+    background-color: #BB2339;
     box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.344);
     color: #fff;
     transform: translateY(-7px);
@@ -86,90 +64,308 @@
 
 /* orta qismi */
 /* orta qismi */
-/* orta qismi */
-/* orta qismi */
-/* orta qismi */
-/* orta qismi */
-/* orta qismi */
-/* orta qismi */
-/* orta qismi */
-/* orta qismi */
-/* orta qismi */
-/* orta qismi */
-/* orta qismi */
-/* orta qismi */
-/* orta qismi */
-/* orta qismi */
-/* orta qismi */
-/* orta qismi */
-/* orta qismi */
-/* orta qismi */
-/* orta qismi */
 
-/* orta qismi */
-/* orta qismi */
 
-.orta{
+.orta {
     width: 100%;
     height: auto;
-    padding: 10px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 0px;
+    background-color: white;
+    border: none;
+    padding-left: 90px;
 }
 
-.orta .orta_t{
+.orta .orta_t {
     width: 100%;
-    height: 100px;
+    height: auto;
     padding: 50px;
-    border: 4px solid black;
-    
+
 }
 
-.orta_t .harf{
+.orta_t .harf {
     width: 100px;
-    height: auto;
+    height: 19px;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+
     justify-content: center;
     align-items: center;
-    margin-left: 80px;
+
+    margin-bottom: 80px;
 }
 
-.harf p{
+.harf p {
     font-size: 14px;
 }
 
-.harf .asd{
+.harf .asd {
     color: #BB2339;
 }
 
-.orta .chap{
+.chap {
     width: 428px;
     height: 844px;
+    background-color: #BB2339;
+    border-radius: 20px;
+    padding: 29px;
+    float: left;
 
 }
 
-.chap .tugma{
+.chap h2 {
+    font-size: 40px;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    color: white;
+    font-family: 'Cera Round Pro', sans-serif;
+    font-weight: 500;
+
+}
+
+.chap .tugma {
     width: 181px;
-    height: 592px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+}
+
+.tugma button {
+    border: 1px solid #BB2339;
+
+}
+
+.tugma button:hover {
+    border: 1px solid #BB2339;
+    background-color: white;
+    color: black;
+    /* ochir */
+
+}
+
+
+
+.orta .ong {
+    width: 70%;
+    height: 100%;
+    margin-left: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.ong .img {
+    width: 400px;
+    height: 468px;
+    padding: 5px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    float: left;
+    gap: 20px;
+border: 1px solid rgba(128, 128, 128, 0.308);
 }
 
-.tugma button{
-    border: 1px solid #BB2339;
+.img1 {
+    width: 400px;
+    height: 468px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    gap: 20px;
+
+    margin-bottom: 30px;
+border: 1px solid rgba(128, 128, 128, 0.308);
+}
+.img1 {
+    width: 400px;
+    height: 468px;
+    padding: 5px;
+    display: flex;
+    margin-left: 40px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    gap: 20px;
+
+    margin-bottom: 50px;
+border: 1px solid rgba(128, 128, 128, 0.308);
+}
+
+.img img {
+    width: 340px;
+    height: 240px;
+
+}
+.img1 img {
+    width: 340px;
+    height: 240px;
+
+}
+.img11 img {
+    width: 340px;
+    height: 240px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* tag qismi */
+
+.footer11 {
+    width: 1330px;
+    height: 300px;
+    background: #BB2339;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    z-index: 1;
+    position: relative;
+
+}
+
+.shriftlar {
+    margin-left: 160px;
+    width: 1000px;
+    height: 150px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shriftlar h2 {
+    color: white;
     
 }
-.tugma button:hover{
+
+.shriftlar h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.shriftlar p {
+    color: white;
+}
+
+.inpbtn {
+    width: 1000px;
+    height: 150px;
+    margin-left: 170px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+
+.inpbtn input {
+    width: 450px;
+    height: 50px;
+    border-radius: 30px;
     border: 1px solid white;
-    background-color: white;
-    
+    background: #BB2339;
+    color: white;
+    padding-left: 30px;
+}
+
+.inpbtn button {
+    width: 120px;
+    height: 50px;
+    border-radius: 30px;
+    border: 2px solid white;
+    background: #BB2339;
+    color: gray;
+    padding-left: 30px;
+    color: white;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+
+.footer21 {
+    width: 1920px;
+    height: 500px;
+    background: #BB2339;
+    margin-top: -160px;
+    z-index: -1;
+    padding-top: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+
+.a1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    width: 300px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background: #000; */
+}
+
+.a2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    width: 400px;
+    height: 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.a3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    width: 400px;
+    height: 150px;
+    font-weight: 200;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
